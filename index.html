@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Prata&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Поиск репозитория</title>
+  </head>
+  <body>
+    <h1>Поиск репозитория</h1>
+    <form autocomplete="off" id="form">
+      <div>
+        <input
+          type="text"
+          id="search"
+          placeholder="Название репозитория"
+          required
+        />
+      </div>
+      <div>
+        <button>Найти</button>
+      </div>
+    </form>
+    <div class="info"></div>
+    <div class="content"></div>
+    <script src="./main.js"></script>
+  </body>
+</html>
